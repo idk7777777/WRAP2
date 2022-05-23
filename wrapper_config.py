@@ -53,7 +53,7 @@ ADMIN_FOLDER = 'admdump'
 ADMIN_HACK_SAVE = 'adminhacksave.txt'
 
 # Колонки для дампов
-COLUMN_DUMP = 'user,Poștă,pošta,posta,Poczta,poster,Paštas,correspondência,correo,posta,e-posta,clave,parola,wachtwoord,Heslo,hasło,senha,mail,pass,pw,salt,solt,hash,md5,sha1,hex'
+COLUMN_DUMP = 'user,login,mail,e-posta,posta,clave,pass,pwd,pswd,pw,hash,salt,solt,md5,sha1,hex'
 
 # Паук
 SPIDER = True
