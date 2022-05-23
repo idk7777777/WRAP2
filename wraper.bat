@@ -1,2 +1,3 @@
-python wrapper.py user,post,Poștă,pošta,posta,Poczta,poster,Paštas,correspondência,correo,posta,e-posta,clave,parola,wachtwoord,Heslo,hasło,senha,mail,pass,pw,salt,solt,hash,md5,sha1,hex
+@echo
+python wrapper.py user,login,mail,e-posta,posta,clave,pass,pwd,pswd,pw,hash,salt,solt,md5,sha1,hex
 pause
