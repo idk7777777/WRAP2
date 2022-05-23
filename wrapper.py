@@ -310,7 +310,7 @@ def sqlmap_dump(url, check_timeout, proxy=None):
                 '--level=%s' % wrapper_config.LEVEL,
                 '--risk=%s' % wrapper_config.RISK,
                 '--random-agent',
-                '--check-internet'
+                '--check-internet',
                 '--threads=5',
                 '--answers=quit=n,crack=n',
                 '--tamper=%s' % wrapper_config.TAMPER,
@@ -350,7 +350,7 @@ def sqlmap_dump(url, check_timeout, proxy=None):
                 '--level=%s' % wrapper_config.LEVEL,
                 '--risk=%s' % wrapper_config.RISK,
                 '--random-agent',
-                '--check-internet'
+                '--check-internet',
                 '--threads=5',
                 '--answers=quit=n,crack=n',
                 '--tamper=%s' % wrapper_config.TAMPER,
@@ -390,7 +390,7 @@ def sqlmap_dump(url, check_timeout, proxy=None):
                 '--level=%s' % wrapper_config.LEVEL,
                 '--risk=%s' % wrapper_config.RISK,
                 '--random-agent',
-                '--check-internet'
+                '--check-internet',
                 '--threads=5',
                 '--answers=quit=n,crack=n',
                 '--tamper=%s' % wrapper_config.TAMPER,
