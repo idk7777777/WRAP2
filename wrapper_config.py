@@ -6,7 +6,7 @@
 DEBUG = True # False - without logs
 #DEBUG = False # False - without logs
 
-URLS_FILE = 'site.txt'
+URLS_FILE = '1.txt'
 SQLi_SAVE_FILE = 'goodsqli.txt'
 BRUTE_SAVE_FILE = 'goodbrute.txt'
 
@@ -23,7 +23,7 @@ start = 1
 stop = 100000000
 
 # Поиск файла robots
-Robots = True
+Robots = False
 ROBOTS_SAVE = 'goodrobots.txt'
 
 # Проверка ссылок на популярные домен
@@ -33,7 +33,7 @@ Check_List = True
 BRUTE_CMS = False
 THREADS_BRUTE = 100
 # Пробив эксплоитами
-EXPLOITS_CMS = True
+EXPLOITS_CMS = False
 
 # Поиск админки и бэкапов
 ADMIN_FIND = False
@@ -53,7 +53,7 @@ ADMIN_FOLDER = 'admdump'
 ADMIN_HACK_SAVE = 'adminhacksave.txt'
 
 # Колонки для дампов
-COLUMN_DUMP = 'user,login,mail,e-posta,posta,clave,pass,pwd,pswd,pw,hash,salt,solt,md5,sha1,hex'
+COLUMN_DUMP = 'user,email,mail,account,login,pass,password,passwd,pwd,hash,salt,wachtwoord,senha,clave,motdepasse,phone,mobile,tel,cell,pw,country'
 
 # Паук
 SPIDER = True
@@ -73,7 +73,7 @@ ALEXA_CHECK = False
 ALEXA = 1000000
 
 # Тамперы по умолчанию
-TAMPER = 'space2comment,space2plus,randomcase'
+TAMPER = 'space2comment,equaltolike,randomcase'
 
 PROXY = False # False if work without it
 DUMP_COLUMN_LIMIT = 20
@@ -85,7 +85,7 @@ PROXY_PASSWORD = ''
 URLS_LIMIT = 10000000
 DUMP_FOLDER = 'dumps_folder'
 DUMP_COLUMN_LIMIT = 20 # 91 - 100 ...
-THREADS = 35
+THREADS = 300
 
 # Удаление пустых папок
 DELETE=False
